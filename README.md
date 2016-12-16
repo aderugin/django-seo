@@ -15,6 +15,12 @@ admin.site.register(Model, SeoAdmin)
 
 # settings.py
 
+INSTALLED_APPS = (
+    ...
+    'seo'
+    ...
+)
+
 CONTEXT_PROCESSORS = (
     ...
     'seo.context_processors.metatags'
